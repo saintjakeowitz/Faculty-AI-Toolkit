@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Build Your Faculty AI Toolkit</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="card" id="appCard" aria-label="Faculty AI Toolkit">
+      <header class="card__head">
+        <div class="card__kicker">Faculty-facing • Exploratory • Neutral stance</div>
+        <h1 class="card__title">Faculty AI Toolkit Builder</h1>
+        <p class="card__sub">
+          Pick one tool per category, optionally enable Generative AI, and enter a topic. The toolkit suggests
+          teaching/research activities based on your selections.
+        </p>
+      </header>
+
+      <section class="grid">
+        <div class="panel">
+          <h2 class="h2">Context</h2>
+
+          <div class="row">
+            <label class="label" for="focus">Primary focus</label>
+            <select id="focus" class="control">
+              <option value="both">Teaching + Research</option>
+              <option value="teaching">Teaching</option>
+              <option value="research">Research</option>
+              <option value="program">Program / Admin</option>
+            </select>
+          </div>
+
+          <div class="row">
+            <label class="label" for="goal">Primary goal</label>
+            <select id="goal" class="control">
+              <option value="quick">Quick class activity / workflow</option>
+              <option value="assign">Assignment / deliverable</option>
+              <option value="capstone">Capstone / major project</option>
+            </select>
+          </div>
+
+          <div class="row">
+            <label class="label" for="audience">Audience</label>
+            <select id="audience" class="control">
+              <option value="any">Any / mixed</option>
+              <option value="first-year">First-year / Intro</option>
+              <option value="upper">Upper-level</option>
+              <option value="grad">Graduate</option>
+              <option value="faculty">Faculty / Researchers</option>
+              <option value="staff">Staff / Admin</option>
+            </select>
+          </div>
+
+          <div class="row">
+            <label class="label" for="modality">Teaching modality</label>
+            <select id="modality" class="control">
+              <option value="any">Any</option>
+              <option value="f2f">Face-to-face</option>
+              <option value="online">Online</option>
+              <option value="hybrid">Hybrid</option>
+              <option value="hyflex">HyFlex</option>
+            </select>
+          </div>
+
+          <div class="row">
+            <label class="label" for="topic">Topic / research question</label>
+            <input id="topic" class="control" type="text" placeholder="e.g., nursing clinical reasoning; misinformation; grant proposal…" />
+          </div>
+
+          <details class="details">
+            <summary>Important disclaimer about AI tools</summary>
+            <div class="details__body">
+              <p>
+                This toolkit is provided for informational and exploratory purposes only. It is not intended to promote or endorse the use of
+                artificial intelligence tools in teaching, research, or administrative work.
+              </p>
+              <p>Faculty should evaluate AI tools carefully, considering disciplinary norms, institutional policies, privacy requirements, and ethical responsibilities.</p>
+              <ul>
+                <li>Student privacy and FERPA compliance</li>
+                <li>Academic integrity and authorship transparency</li>
+                <li>Bias, accuracy, and reliability of generated content</li>
+                <li>Copyright and intellectual property</li>
+                <li>Institutional or departmental AI policies</li>
+              </ul>
+            </div>
+          </details>
+
+          <div class="row row--inline">
+            <label class="toggle">
+              <input id="genaiEnabled" type="checkbox" />
+              <span>Enable Generative AI category (optional)</span>
+            </label>
+          </div>
+
+          <div class="row row--inline actions">
+            <button id="resetBtn" class="btn btn--ghost" type="button">Reset</button>
+            <button id="copyLinkBtn" class="btn" type="button">Copy share link</button>
+          </div>
+
+          <div class="status" id="rulesStatus" aria-live="polite"></div>
+        </div>
+
+        <div class="panel">
+          <h2 class="h2">Choose your tools</h2>
+          <p class="muted">Select one tool per section. Hover a name for a short description.</p>
+
+          <div id="toolSections" class="sections" aria-label="Tool picker"></div>
+        </div>
+      </section>
+
+      <section class="kit">
+        <h2 class="h2">My Teaching &amp; Research Toolkit</h2>
+
+        <div class="kit__grid">
+          <div class="kit__col">
+            <h3 class="h3">Selections</h3>
+            <ul id="summaryList" class="summary"></ul>
+          </div>
+
+          <div class="kit__col">
+            <h3 class="h3">Suggested activities</h3>
+            <div class="muted" id="matchNote"></div>
+            <div id="suggestions" class="suggestions" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="card__foot">
+        <small class="muted">
+          Maintained as a standalone widget for embedding in LibGuides via iframe. Rules are loaded from a JSON file in this repository.
+        </small>
+      </footer>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
