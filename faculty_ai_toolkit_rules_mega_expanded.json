@@ -1622,6 +1622,382 @@
     ]
   },
   {
+    "id": "teaching_quick_chatgpt_firstyear_activity",
+    "priority": 96,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "audience": ["fy"],
+      "categoryTools": {
+        "productivity": ["ChatGPT", "Claude"]
+      }
+    },
+    "applications": [
+      {
+        "title": "First-Year Friendly Activity Design",
+        "desc": "Create scaffolded activities for intro students with clear instructions, concrete examples, and built-in success criteria. Focus on building confidence and basic skills."
+      },
+      {
+        "title": "Academic Skills Integration",
+        "desc": "Design activities that teach course content while building college success skills: note-taking, reading strategies, time management, study habits."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Scaffolded activity",
+        "text": "Create an activity on [TOPIC] for first-year students. Include: step-by-step instructions, example of expected output, common mistakes to avoid, success checklist."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_grad_seminar",
+    "priority": 96,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "audience": ["grad"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Advanced Seminar Discussion",
+        "desc": "Generate sophisticated discussion questions that push graduate students to critique methodology, identify theoretical assumptions, and synthesize across studies."
+      },
+      {
+        "title": "Professional Development Integration",
+        "desc": "Design activities connecting course content to professional identity: publishing, grant writing, teaching, ethical practice in the field."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Graduate seminar questions",
+        "text": "Create 5 discussion questions for graduate students on [READING/TOPIC]. Push them to: critique methods, evaluate theory, identify gaps, propose extensions."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_online_asynchronous",
+    "priority": 88,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "audience": ["online"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Asynchronous Discussion Design",
+        "desc": "Create discussion prompts optimized for online forums: initial post requirements, peer response guidelines, synthesis activities, instructor facilitation strategies."
+      },
+      {
+        "title": "Self-Paced Module Design",
+        "desc": "Structure learning modules with clear objectives, multimedia content, interactive elements, formative checks, and flexible pacing options."
+      },
+      {
+        "title": "Online Community Building",
+        "desc": "Design activities that foster connection in online spaces: introductions, peer feedback, collaborative projects, informal interaction opportunities."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Async discussion design",
+        "text": "Create an asynchronous discussion activity on [TOPIC]. Include: initial post prompt (200-300 words), response requirements (2 peers), evaluation criteria, timeline."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_hiload_scalable",
+    "priority": 87,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "audience": ["hiload"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Scalable Assessment Design",
+        "desc": "Create assessments manageable with large enrollments: auto-graded components, peer review protocols, efficient rubrics, strategic sampling for feedback."
+      },
+      {
+        "title": "Large Class Active Learning",
+        "desc": "Design engagement strategies that work with 100+ students: polling, think-pair-share, backchannel Q&A, structured problem-solving in large lecture halls."
+      },
+      {
+        "title": "Efficient Feedback Systems",
+        "desc": "Develop feedback approaches that scale: video feedback, group feedback sessions, self-assessment with spot-checking, strategic individual conferences."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Scalable assignment",
+        "text": "Design an assignment for high-enrollment course ([N] students) on [TOPIC]. Make it: feasible to grade, rigorous, provides meaningful feedback. Include efficiency strategies."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_coursedesign_task",
+    "priority": 90,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "task": ["course"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Complete Course Design",
+        "desc": "Use backward design to create comprehensive course: learning outcomes, assessment plan, week-by-week schedule, assignment sequence, grading scheme."
+      },
+      {
+        "title": "Course Redesign for Engagement",
+        "desc": "Transform existing course with active learning, authentic assessment, student choice, and inclusive practices while maintaining rigor."
+      },
+      {
+        "title": "Online Course Development",
+        "desc": "Design or convert course for online delivery: module structure, multimedia content, discussion forums, virtual collaboration, office hours strategies."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Course architecture",
+        "text": "Design a [SEMESTER LENGTH] course on [TOPIC] for [AUDIENCE]. Start with 5-7 learning outcomes, then: major assessments, week-by-week topics, reading/assignment schedule."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_discussion_task",
+    "priority": 91,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "task": ["discussion"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Discussion Prompt Library",
+        "desc": "Generate diverse discussion questions: opening questions, follow-up probes, synthesis prompts, application scenarios for rich class conversation."
+      },
+      {
+        "title": "Participation Scaffolding",
+        "desc": "Design structures that increase participation: prep questions, talk moves, equity practices, backchannel options for different comfort levels."
+      },
+      {
+        "title": "Discussion Assessment Tools",
+        "desc": "Create rubrics and self-assessment tools for discussion participation that value quality over quantity, listening, and building on ideas."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Discussion sequence",
+        "text": "Create a discussion sequence for [TOPIC]: opening question (gets everyone talking), deepening questions (analysis), synthesis question (connect to bigger picture)."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_assignment_redesign",
+    "priority": 89,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "task": ["assignment"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "AI-Resilient Assignment Design",
+        "desc": "Redesign traditional assignments to emphasize process, reflection, and authentic application that AI can support but not replace student learning."
+      },
+      {
+        "title": "Scaffolded Major Project",
+        "desc": "Break large assignment into checkpoints with feedback: proposal, sources, outline, draft, revision, final with reflection on learning process."
+      },
+      {
+        "title": "Choice-Based Assignment",
+        "desc": "Design assignment menu where students choose format (paper, podcast, presentation, infographic) while meeting same learning outcomes."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "AI-resilient redesign",
+        "text": "Redesign this [CURRENT ASSIGNMENT] to be AI-resilient. Add: process requirements (show thinking), contextual application, reflection component, peer interaction element."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_feedback_workflow",
+    "priority": 88,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "task": ["feedback"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Efficient Feedback System",
+        "desc": "Design feedback workflow that's sustainable: comment banks, audio feedback, peer review, self-assessment, focused feedback on high-impact areas."
+      },
+      {
+        "title": "Growth-Oriented Feedback",
+        "desc": "Create feedback templates emphasizing growth, specific actions, and connection to learning goals rather than just marking errors."
+      },
+      {
+        "title": "Formative Feedback Loop",
+        "desc": "Build multiple low-stakes feedback opportunities throughout semester where students practice, get feedback, improve without grade pressure."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Feedback template",
+        "text": "Create a feedback template for [ASSIGNMENT TYPE] that: identifies strengths, gives specific improvement actions, connects to learning goals, encourages revision."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_rubric_task",
+    "priority": 92,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "task": ["rubric"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Clear Rubric Development",
+        "desc": "Create rubrics with specific, observable criteria at each level that students and graders can apply consistently."
+      },
+      {
+        "title": "Single-Point Rubric",
+        "desc": "Design simpler rubric format: describe proficient performance, leave space for feedback on exceeds/needs work for each criterion."
+      },
+      {
+        "title": "Student-Involved Rubrics",
+        "desc": "Create rubric development activities where students co-create criteria, increasing buy-in and understanding of quality work."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Analytic rubric",
+        "text": "Create a rubric for [ASSIGNMENT] with 4-5 criteria and 4 levels (exemplary, proficient, developing, beginning). Make descriptors specific, observable, avoid vague language."
+      }
+    ]
+  },
+  {
+    "id": "research_assign_chatgpt_lit_review_task",
+    "priority": 89,
+    "when": {
+      "focus": ["research"],
+      "mode": ["assign"],
+      "task": ["lit"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Literature Review Structure",
+        "desc": "Organize review by themes/debates rather than study-by-study summaries. Create framework showing relationships between sources and knowledge gaps."
+      },
+      {
+        "title": "Systematic Review Protocol",
+        "desc": "Design transparent, reproducible search and screening process: databases, terms, inclusion criteria, quality assessment, synthesis approach."
+      },
+      {
+        "title": "Scoping Review Framework",
+        "desc": "Map the landscape of research on broad topic: identify key concepts, types of evidence, knowledge gaps without quality appraisal."
+      }
+    },
+    "prompts": [
+      {
+        "label": "Lit review outline",
+        "text": "Create a thematic literature review outline for [TOPIC]. Organize by: key debates, theoretical frameworks, methodological approaches, synthesis of findings, identified gaps."
+      }
+    ]
+  },
+  {
+    "id": "research_assign_chatgpt_methods_task",
+    "priority": 88,
+    "when": {
+      "focus": ["research"],
+      "mode": ["assign"],
+      "task": ["methods"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Methods Section Drafting",
+        "desc": "Write detailed, reproducible methods: participants/materials, procedures, measures, analysis plan with enough detail for replication."
+      },
+      {
+        "title": "Research Design Planning",
+        "desc": "Articulate research design decisions: sampling strategy, data collection, validity threats, ethical considerations, limitations."
+      },
+      {
+        "title": "Analysis Plan Development",
+        "desc": "Pre-register analysis decisions: primary outcomes, statistical tests, subgroup analyses, sensitivity analyses, handling missing data."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Methods draft",
+        "text": "Draft methods section for [STUDY TYPE] on [TOPIC]. Include: participants (recruitment, n, demographics), materials, procedure (step-by-step), measures, analysis approach."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_access_udl_task",
+    "priority": 93,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "task": ["access"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Quick Accessibility Audit",
+        "desc": "Check course materials for common barriers: image alt text, heading structure, color contrast, plain language, captioning needs."
+      },
+      {
+        "title": "UDL Plus-One Improvements",
+        "desc": "Add one more way students can access content, engage with material, or demonstrate learning without complete redesign."
+      },
+      {
+        "title": "Accommodation Integration",
+        "desc": "Build common accommodations into design rather than retrofitting: extended time, alternative formats, flexible deadlines, sensory considerations."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Accessibility check",
+        "text": "Review this [MATERIAL TYPE] for accessibility. Check: alt text for images, heading hierarchy, color dependence, readability level, caption/transcript needs."
+      }
+    ]
+  },
+  {
     "id": "teaching_quick_chatgpt_thinkpairshare",
     "priority": 94,
     "when": {
@@ -2395,6 +2771,446 @@
       {
         "label": "Broader impacts",
         "text": "Write broader impacts statement for [RESEARCH] covering: societal benefits, educational activities, inclusion efforts, dissemination plan. Be specific and compelling."
+      }
+    ]
+  },
+  {
+    "id": "research_quick_chatgpt_grant_proposal_task",
+    "priority": 94,
+    "when": {
+      "focus": ["research"],
+      "mode": ["quick"],
+      "task": ["grant"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Grant Idea Framing",
+        "desc": "Quickly frame research as fundable project: significance, innovation, approach overview, feasibility, broader impacts for grant concept paper."
+      },
+      {
+        "title": "Specific Aims Page",
+        "desc": "Draft compelling specific aims: problem importance, knowledge gap, hypothesis/objectives, approach summary, expected outcomes in 1 page."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Grant concept",
+        "text": "Help me frame [RESEARCH] as a grant proposal. Draft: significance (why important), innovation (what's new), approach (how), broader impacts (who benefits)."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_oer_development_task",
+    "priority": 85,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "task": ["oer"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "OER Module Development",
+        "desc": "Create openly-licensed course materials: learning objectives, readings, activities, assessments with Creative Commons licensing."
+      },
+      {
+        "title": "Textbook Alternative Design",
+        "desc": "Curate and create free resources to replace expensive textbook: open textbooks, articles, videos, interactive content."
+      },
+      {
+        "title": "Open Pedagogy Projects",
+        "desc": "Design assignments where students create openly-licensed resources for future students or public audiences."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "OER module outline",
+        "text": "Design an OER module on [TOPIC]. Include: learning objectives, curated open resources, original activities, assessment, appropriate CC license."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_hybrid_course_task",
+    "priority": 87,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "audience": ["hybrid"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "HyFlex Course Design",
+        "desc": "Design course allowing students to attend in-person, synchronously online, or asynchronously while maintaining equivalent learning."
+      },
+      {
+        "title": "Hybrid Session Planning",
+        "desc": "Strategically determine what happens online vs. in-person: concepts online, application in-person; individual online, collaborative in-person."
+      },
+      {
+        "title": "Hybrid Assessment Equity",
+        "desc": "Create assessments that work equally well for all participation modes without disadvantaging any modality."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Hybrid session design",
+        "text": "Design a hybrid lesson on [TOPIC]. Specify: what students do before class (online), what happens in-person, options for remote synchronous learners, asynchronous alternatives."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_seminar_discussion_task",
+    "priority": 92,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "audience": ["seminar"],
+      "task": ["discussion"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Seminar Discussion Protocol",
+        "desc": "Design student-led seminar discussion: reading analysis framework, discussion roles (facilitator, note-taker), participation guidelines."
+      },
+      {
+        "title": "Inquiry-Based Seminar",
+        "desc": "Create question-driven seminars where students generate questions, explore together, build collective understanding."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Seminar protocol",
+        "text": "Design a student-led seminar protocol for discussing [READING]. Include: pre-class prep, opening activity, discussion structure, roles, closure synthesis."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_mixed_levels_differentiation",
+    "priority": 86,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "audience": ["mixed"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Differentiated Instruction",
+        "desc": "Design tiered activities or assignments where all students work toward same goals through different entry points and challenge levels."
+      },
+      {
+        "title": "Flexible Grouping Strategies",
+        "desc": "Create group work that leverages diverse skills: peer teaching, complementary strengths, rotating expertise roles."
+      },
+      {
+        "title": "Leveled Support Materials",
+        "desc": "Provide resources at multiple levels: basic guides, intermediate scaffolds, advanced extensions so students can self-select support needed."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Tiered activity",
+        "text": "Create a tiered activity on [TOPIC] for mixed-level class. All tiers address same learning goal but differ in: complexity, support, independence required."
+      }
+    ]
+  },
+  {
+    "id": "research_assign_chatgpt_collab_mapping_task",
+    "priority": 84,
+    "when": {
+      "focus": ["research"],
+      "mode": ["assign"],
+      "task": ["collab"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Collaboration Network Mapping",
+        "desc": "Identify potential interdisciplinary collaborators: complementary expertise, shared interests, institutional connections, funding synergies."
+      },
+      {
+        "title": "Team Science Planning",
+        "desc": "Design collaborative research structure: roles, workflows, authorship agreements, communication norms, conflict resolution."
+      },
+      {
+        "title": "Partnership Development",
+        "desc": "Plan community-academic partnerships: mutual goals, equitable roles, knowledge exchange, sustainability, evaluation."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Collaboration plan",
+        "text": "I'm interested in collaborating on [TOPIC] with [DISCIPLINE/COMMUNITY]. Help me: identify potential partners, articulate mutual benefits, draft outreach message, plan structure."
+      }
+    ]
+  },
+  {
+    "id": "both_assign_chatgpt_sotl_idea_task",
+    "priority": 83,
+    "when": {
+      "focus": ["both"],
+      "mode": ["assign"],
+      "task": ["sotl"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "SoTL Question Generation",
+        "desc": "Transform teaching observations into researchable questions about student learning: what works, what is, what could be questions."
+      },
+      {
+        "title": "Classroom Research Design",
+        "desc": "Design manageable SoTL study: focused question, ethical data collection, simple analysis, dissemination plan for teaching conference."
+      },
+      {
+        "title": "Action Research Cycle",
+        "desc": "Plan iterative improvement: try intervention, collect evidence, reflect, refine, repeat with systematic documentation."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "SoTL question",
+        "text": "I noticed [TEACHING OBSERVATION] in my class. Help me turn this into a SoTL research question and design a simple study to investigate it."
+      }
+    ]
+  },
+  {
+    "id": "teaching_assign_chatgpt_upperdiv_synthesis_task",
+    "priority": 86,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["assign"],
+      "audience": ["ud"],
+      "task": ["assignment"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Capstone Project Design",
+        "desc": "Create culminating project requiring integration across course or program: research, creation, application, reflection components."
+      },
+      {
+        "title": "Advanced Application Tasks",
+        "desc": "Design assignments requiring upper-division skills: evaluating competing theories, designing studies, proposing solutions to complex problems."
+      },
+      {
+        "title": "Pre-Professional Projects",
+        "desc": "Create assignments mirroring professional practice: case analyses, policy briefs, consulting reports, portfolio development."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Capstone project",
+        "text": "Design a capstone project for upper-division course on [TOPIC]. Should: integrate multiple concepts, require original application, include research/creation component, culminate in professional-quality deliverable."
+      }
+    ]
+  },
+  {
+    "id": "program_assign_chatgpt_assessment_plan_task",
+    "priority": 89,
+    "when": {
+      "focus": ["program"],
+      "mode": ["assign"],
+      "task": ["assessment"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Multi-Year Assessment Cycle",
+        "desc": "Design rotating assessment schedule: which outcomes assessed when, methods, responsibility, reporting timeline, use of results."
+      },
+      {
+        "title": "Direct Measure Development",
+        "desc": "Create performance-based assessments of program outcomes: embedded course assignments, capstone projects, comprehensive exams with rubrics."
+      },
+      {
+        "title": "Indirect Measure Design",
+        "desc": "Develop surveys, focus groups, exit interviews, employer feedback to complement direct measures with stakeholder perspectives."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Assessment cycle",
+        "text": "Create a 5-year assessment plan for [PROGRAM] with [N] outcomes. For each year: which outcomes assessed, methods (direct/indirect), timeline, responsible parties, reporting format."
+      }
+    ]
+  },
+  {
+    "id": "program_assign_chatgpt_accreditation_task",
+    "priority": 88,
+    "when": {
+      "focus": ["program"],
+      "mode": ["assign"],
+      "task": ["accred"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Self-Study Report Writing",
+        "desc": "Organize evidence and draft narrative for accreditation standards: program mission, outcomes, curriculum, assessment, resources, improvement."
+      },
+      {
+        "title": "Evidence Repository Organization",
+        "desc": "Catalog and organize documentation: syllabi, assessments, student work, improvement plans, meeting minutes aligned to standards."
+      },
+      {
+        "title": "Continuous Improvement Documentation",
+        "desc": "Create narrative showing assessment → improvement cycle: findings, actions taken, evidence of impact, next steps."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Standard narrative",
+        "text": "Draft narrative for accreditation standard: [STANDARD]. Include: how we meet it, evidence to support, strengths, areas for improvement, action plan."
+      }
+    ]
+  },
+  {
+    "id": "teaching_quick_chatgpt_activity_firstyear",
+    "priority": 93,
+    "when": {
+      "focus": ["teaching"],
+      "mode": ["quick"],
+      "audience": ["fy"],
+      "task": ["activity"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Confidence-Building Activities",
+        "desc": "Design low-stakes activities that build first-year student confidence through success: structured collaboration, clear guidelines, immediate feedback."
+      },
+      {
+        "title": "Study Skills Integration",
+        "desc": "Embed academic success strategies in content activities: note-taking practice, reading strategies, test prep, time management."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "First-year activity",
+        "text": "Create a class activity on [TOPIC] for first-year students that: is achievable in 20 minutes, has clear success criteria, builds confidence, teaches content + skills."
+      }
+    ]
+  },
+  {
+    "id": "research_assign_chatgpt_abstract_presentation_task",
+    "priority": 87,
+    "when": {
+      "focus": ["research"],
+      "mode": ["assign"],
+      "task": ["abstract"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Conference Abstract Writing",
+        "desc": "Draft compelling abstracts within word limits: hook, gap, contribution, method, key finding, significance for various conference formats."
+      },
+      {
+        "title": "Poster Design Planning",
+        "desc": "Organize research for poster presentation: visual hierarchy, key takeaways, figure selection, QR code resources, elevator pitch."
+      },
+      {
+        "title": "Lightning Talk Script",
+        "desc": "Distill research to 5-minute talk: one clear message, compelling narrative, memorable visuals, call to action or next steps."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Conference abstract",
+        "text": "Write a [WORD LIMIT] abstract for [RESEARCH] for [CONFERENCE TYPE]. Include: compelling opening, gap/significance, approach, key finding, takeaway. Hook the reviewers."
+      }
+    ]
+  },
+  {
+    "id": "both_capstone_perplexity_chatgpt_teachfromresearch",
+    "priority": 75,
+    "when": {
+      "focus": ["both"],
+      "mode": ["capstone"],
+      "task": ["teachfromresearch"],
+      "categoryTools": {
+        "discovery": ["Perplexity"],
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Research-to-Teaching Translation",
+        "desc": "Transform your research into teachable modules: identify accessible entry points, design scaffolded activities, create assessment connecting to research process."
+      },
+      {
+        "title": "Research-Integrated Course",
+        "desc": "Build entire course around your research area: students engage with your methods, analyze related data, contribute to field understanding."
+      },
+      {
+        "title": "Undergraduate Research Mentoring",
+        "desc": "Design tiered research opportunities: course-based research, independent studies, thesis projects aligned with your research program."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Research module design",
+        "text": "I research [TOPIC]. Design a 2-week module for [AUDIENCE] that: introduces key concepts from my research, uses authentic data/methods, scaffolds understanding, assesses learning."
+      }
+    ]
+  },
+  {
+    "id": "both_assign_chatgpt_materials_pipeline_task",
+    "priority": 82,
+    "when": {
+      "focus": ["both"],
+      "mode": ["assign"],
+      "task": ["materials"],
+      "categoryTools": {
+        "productivity": ["ChatGPT"]
+      }
+    },
+    "applications": [
+      {
+        "title": "Dual-Purpose Content Creation",
+        "desc": "Write materials serving both teaching and research dissemination: literature reviews become course readings, methods become teaching cases."
+      },
+      {
+        "title": "Publication Pipeline from Teaching",
+        "desc": "Design course projects that feed research: student data collection, content analysis, crowd-sourced examples that advance scholarship."
+      },
+      {
+        "title": "Collaborative Knowledge Building",
+        "desc": "Create assignments where students contribute to knowledge base: Wikipedia editing, open database building, public scholarship."
+      }
+    ],
+    "prompts": [
+      {
+        "label": "Dual-purpose planning",
+        "text": "I'm working on [RESEARCH/WRITING]. How can I: (1) use parts in my [COURSE], (2) have students contribute to the project, (3) turn teaching into publishable work?"
       }
     ]
   }
