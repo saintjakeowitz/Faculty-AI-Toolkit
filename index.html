@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Build Your Faculty AI Toolkit</title>
+  <title>Faculty AI Toolkit Builder</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -13,14 +13,17 @@
         <div class="card__kicker">Faculty-facing • Exploratory • Neutral stance</div>
         <h1 class="card__title">Faculty AI Toolkit Builder</h1>
         <p class="card__sub">
-          Pick one tool per category, optionally enable Generative AI, and enter a topic. The toolkit suggests
-          teaching/research activities based on your selections.
+          Pick one tool per category (optional GenAI), set your context, and enter a topic. Suggestions adapt to your selections and match rules.
         </p>
+        <div class="chiprow" id="chipRow" aria-label="Current context chips"></div>
       </header>
 
       <section class="grid">
         <div class="panel">
-          <h2 class="h2">Context</h2>
+          <div class="panel__head">
+            <h2 class="h2">Context</h2>
+            <span class="pill" id="savePill" title="Auto-saves to this browser">Saved</span>
+          </div>
 
           <div class="row">
             <label class="label" for="focus">Primary focus</label>
@@ -65,8 +68,48 @@
           </div>
 
           <div class="row">
+            <label class="label" for="assessment">Assessment shape</label>
+            <select id="assessment" class="control">
+              <option value="any">Any</option>
+              <option value="rubric">Rubric-aligned deliverable</option>
+              <option value="peer">Peer review / workshop</option>
+              <option value="reflection">Reflective / metacognitive</option>
+              <option value="presentation">Presentation / poster</option>
+              <option value="portfolio">Portfolio / iterative drafts</option>
+              <option value="policy">Policy / guidance document</option>
+            </select>
+          </div>
+
+          <div class="row">
+            <label class="label" for="bloom">Cognitive target</label>
+            <select id="bloom" class="control">
+              <option value="any">Any</option>
+              <option value="remember">Remember/Understand</option>
+              <option value="apply">Apply</option>
+              <option value="analyze">Analyze</option>
+              <option value="evaluate">Evaluate</option>
+              <option value="create">Create</option>
+            </select>
+          </div>
+
+          <div class="row">
+            <label class="label" for="discipline">Discipline cluster</label>
+            <select id="discipline" class="control">
+              <option value="any">Any / interdisciplinary</option>
+              <option value="health">Health / Nursing</option>
+              <option value="stem">STEM</option>
+              <option value="social">Social Sciences</option>
+              <option value="humanities">Humanities</option>
+              <option value="business">Business</option>
+              <option value="education">Education</option>
+              <option value="library">Library / Information</option>
+              <option value="arts">Arts / Media</option>
+            </select>
+          </div>
+
+          <div class="row">
             <label class="label" for="topic">Topic / research question</label>
-            <input id="topic" class="control" type="text" placeholder="e.g., nursing clinical reasoning; misinformation; grant proposal…" />
+            <input id="topic" class="control" type="text" placeholder="e.g., clinical reasoning; misinformation; grant proposal…" />
           </div>
 
           <details class="details">
@@ -90,7 +133,7 @@
           <div class="row row--inline">
             <label class="toggle">
               <input id="genaiEnabled" type="checkbox" />
-              <span>Enable Generative AI category (optional)</span>
+              <span>Enable Generative AI_unlocks media suggestions (optional)</span>
             </label>
           </div>
 
@@ -103,25 +146,42 @@
         </div>
 
         <div class="panel">
-          <h2 class="h2">Choose your tools</h2>
-          <p class="muted">Select one tool per section. Hover a name for a short description.</p>
+          <div class="panel__head">
+            <h2 class="h2">Choose your tools</h2>
+            <button id="collapsePickerBtn" class="btn btn--ghost btn--sm" type="button" aria-expanded="true">Hide</button>
+          </div>
+          <p class="muted">Select one tool per section. Hover a name for a short description. (Auto-saves.)</p>
 
-          <div id="toolSections" class="sections" aria-label="Tool picker"></div>
+          <div id="toolPicker" class="toolPicker">
+            <div id="toolSections" class="sections" aria-label="Tool picker"></div>
+          </div>
         </div>
       </section>
 
-      <section class="kit">
-        <h2 class="h2">My Teaching &amp; Research Toolkit</h2>
+      <section class="kit" id="kitStart">
+        <div class="kit__head">
+          <h2 class="h2">My Teaching &amp; Research Toolkit</h2>
+          <div class="kit__actions">
+            <button id="compareToggleBtn" class="btn btn--ghost btn--sm" type="button" aria-pressed="false">Compare mode</button>
+          </div>
+        </div>
 
         <div class="kit__grid">
           <div class="kit__col">
             <h3 class="h3">Selections</h3>
             <ul id="summaryList" class="summary"></ul>
+
+            <details class="why" id="whyBox">
+              <summary>Why these suggestions?</summary>
+              <div class="why__body">
+                <div class="muted" id="matchNote"></div>
+                <div class="muted" id="scoreNote"></div>
+              </div>
+            </details>
           </div>
 
           <div class="kit__col">
             <h3 class="h3">Suggested activities</h3>
-            <div class="muted" id="matchNote"></div>
             <div id="suggestions" class="suggestions" aria-live="polite"></div>
           </div>
         </div>
@@ -129,10 +189,12 @@
 
       <footer class="card__foot">
         <small class="muted">
-          Maintained as a standalone widget for embedding in LibGuides via iframe. Rules are loaded from a JSON file in this repository.
+          Standalone widget for embedding in LibGuides via iframe. Rules load from a JSON file in this repository. (v2)
         </small>
       </footer>
     </section>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
   </main>
 
   <script src="./app.js"></script>

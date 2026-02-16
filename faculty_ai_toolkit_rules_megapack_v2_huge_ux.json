@@ -1,0 +1,6211 @@
+[
+  {
+    "id": "core_ai_foil_evaluate",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "evaluate",
+        "analyze"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "assessment": [
+        "reflection",
+        "rubric",
+        "any"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "AI-as-foil: compare, correct, and cite",
+        "deliverable": "Short critique + corrected explanation with citations",
+        "steps": [
+          "Generate an explanation or solution using your writing/productivity AI tool.",
+          "Have students identify at least 3 issues: missing nuance, unsupported claims, bias, or oversimplification.",
+          "Students correct the output using course materials and scholarly sources; add citations.",
+          "Optional: students write a reflection on what the AI did well/poorly and what they learned."
+        ],
+        "tags": [
+          "Teaching",
+          "Critical Thinking",
+          "Evaluate",
+          "Academic Integrity"
+        ]
+      }
+    ],
+    "priority": 95,
+    "explain": "Use AI output as a foil to practice evaluation, correction, and citation."
+  },
+  {
+    "id": "core_inquiry_cycle",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "analyze",
+        "evaluate",
+        "create"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "topicAny": [
+        "hypothesis",
+        "framework",
+        "theory",
+        "methods",
+        "analysis"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Inquiry cycle: hypothesis \u2192 evidence \u2192 revision",
+        "deliverable": "Inquiry memo + revised hypothesis statement",
+        "steps": [
+          "Use AI to propose 3 plausible hypotheses or interpretations related to the topic.",
+          "Students design an evidence-gathering plan (articles, data, primary sources).",
+          "Students test AI hypotheses against evidence; keep a discrepancy log.",
+          "Submit a revised hypothesis and a brief methods/evidence justification."
+        ],
+        "tags": [
+          "Teaching",
+          "Inquiry",
+          "Analyze",
+          "Evidence-first"
+        ]
+      }
+    ],
+    "priority": 92,
+    "explain": "Inquiry-based activity where AI is used to generate hypotheses, then evidence revises."
+  },
+  {
+    "id": "core_rubric_calibration",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "assessment": [
+        "rubric",
+        "portfolio",
+        "any"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ],
+      "mode": [
+        "assign",
+        "capstone"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Rubric calibration workshop",
+        "deliverable": "Rubric + two annotated exemplar evaluations",
+        "steps": [
+          "Draft or revise a rubric aligned to learning outcomes (start from your existing rubric if available).",
+          "Use AI to generate 2\u20133 sample responses (clearly labeled as synthetic) at different quality levels.",
+          "In class, students apply the rubric to samples; compare results and refine rubric language.",
+          "Finalize rubric + brief rationale on how criteria support learning objectives."
+        ],
+        "tags": [
+          "Teaching",
+          "Assessment",
+          "Rubric",
+          "Transparency"
+        ]
+      }
+    ],
+    "priority": 90,
+    "explain": "Rubric and exemplar calibration to align outcomes and assessment clarity."
+  },
+  {
+    "id": "core_source_map_citation_chain",
+    "when": {
+      "focus": [
+        "teaching",
+        "both",
+        "research"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit"
+      ],
+      "mode": [
+        "assign",
+        "capstone"
+      ],
+      "bloom": [
+        "analyze",
+        "create",
+        "evaluate"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Source map + citation chain assignment",
+        "deliverable": "Annotated citation map (network) + 6-source mini-synthesis",
+        "steps": [
+          "Use Semantic Scholar or ResearchRabbit to build a citation network from 1 seed article.",
+          "Select 6 sources representing 3 different methods or perspectives.",
+          "Summarize each source (claim + evidence + limitation) and link it in the map.",
+          "Write a mini-synthesis explaining how the field \u2018talks to itself\u2019 (where evidence converges/diverges)."
+        ],
+        "tags": [
+          "Teaching",
+          "Literature Review",
+          "Discovery",
+          "Synthesis"
+        ]
+      }
+    ],
+    "priority": 90,
+    "explain": "Map literature via citation chaining to support synthesis and gap-finding."
+  },
+  {
+    "id": "core_policy_brief",
+    "when": {
+      "focus": [
+        "teaching",
+        "program",
+        "both"
+      ],
+      "assessment": [
+        "policy",
+        "any"
+      ],
+      "topicAny": [
+        "policy",
+        "ethics",
+        "integrity",
+        "privacy",
+        "ferpa",
+        "bias"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "AI policy micro-brief (course or lab)",
+        "deliverable": "One-page AI use policy + transparency statement",
+        "steps": [
+          "Identify 3 risks and 3 opportunities of AI use in your course or lab context.",
+          "Draft an AI use policy (allowed / conditional / prohibited) with examples.",
+          "Create a transparency statement template students can attach to work.",
+          "Peer review in pairs for clarity, fairness, and enforceability."
+        ],
+        "tags": [
+          "Teaching",
+          "Policy",
+          "Ethics",
+          "Academic Integrity"
+        ]
+      }
+    ],
+    "priority": 93,
+    "explain": "Draft a context-aware AI policy with transparency statements and peer review."
+  },
+  {
+    "id": "core_lit_triage_evidence_table",
+    "when": {
+      "focus": [
+        "research",
+        "both"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit"
+      ],
+      "mode": [
+        "assign",
+        "capstone"
+      ],
+      "bloom": [
+        "analyze",
+        "evaluate",
+        "create"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Rapid literature triage + evidence table",
+        "deliverable": "Evidence table + \u2018what we know / don\u2019t know\u2019 memo",
+        "steps": [
+          "Use discovery tools to find 10\u201315 candidate sources; screen abstracts with inclusion/exclusion criteria.",
+          "Extract claims, methods, samples, and limitations into an evidence table.",
+          "Use a writing tool to propose themes; verify by re-checking sources.",
+          "Draft a memo: 5 strongest findings, 3 gaps, 2 promising future directions."
+        ],
+        "tags": [
+          "Research",
+          "Literature Review",
+          "Methods",
+          "Synthesis"
+        ]
+      }
+    ],
+    "priority": 94,
+    "explain": "Evidence-table workflow for rigorous literature review triage and synthesis."
+  },
+  {
+    "id": "core_scite_claim_audit",
+    "when": {
+      "focus": [
+        "research",
+        "both"
+      ],
+      "anyTools": [
+        "Scite"
+      ],
+      "bloom": [
+        "evaluate",
+        "analyze"
+      ],
+      "assessment": [
+        "reflection",
+        "any"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Claim-checking with citation context",
+        "deliverable": "Claim audit log + revised argument",
+        "steps": [
+          "List 5 key claims you intend to make (or that AI suggested).",
+          "Use Scite to check how core sources are cited (supporting/contrasting).",
+          "Revise claims with qualifiers and stronger evidence where needed.",
+          "Document changes in an audit log (before/after + citations)."
+        ],
+        "tags": [
+          "Research",
+          "Rigor",
+          "Citation Context",
+          "Evaluate"
+        ]
+      }
+    ],
+    "priority": 92,
+    "explain": "Use citation context to tighten claims and document revisions."
+  },
+  {
+    "id": "core_data_storyboard",
+    "when": {
+      "focus": [
+        "research",
+        "both",
+        "teaching"
+      ],
+      "anyTools": [
+        "Julius",
+        "Quadratic"
+      ],
+      "mode": [
+        "assign",
+        "capstone"
+      ],
+      "assessment": [
+        "presentation",
+        "portfolio",
+        "any"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Data narrative + visualization storyboard",
+        "deliverable": "2\u20133 charts + narrative storyboard (captioned)",
+        "steps": [
+          "Use Julius/Quadratic to explore your dataset and generate candidate visualizations.",
+          "Select 2\u20133 visuals that answer a coherent question (avoid \u2018chart dumping\u2019).",
+          "Write captions: what the chart shows, what it doesn\u2019t, and what assumptions it rests on.",
+          "Create a storyboard that connects visuals into an argument with limitations and next steps."
+        ],
+        "tags": [
+          "Research",
+          "Data",
+          "Visualization",
+          "Communication"
+        ]
+      }
+    ],
+    "priority": 90,
+    "explain": "Turn analysis into interpretable visuals + narrative with limitations."
+  },
+  {
+    "id": "core_grant_irb_prewrite",
+    "when": {
+      "focus": [
+        "research",
+        "program",
+        "both"
+      ],
+      "topicAny": [
+        "grant",
+        "irb",
+        "proposal",
+        "funding",
+        "ethics"
+      ],
+      "mode": [
+        "assign",
+        "capstone"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Grant/IRB prewriting assistant",
+        "deliverable": "One-page aims + risks/mitigations + timeline draft",
+        "steps": [
+          "Use a writing tool to draft specific aims and expected contributions.",
+          "Identify ethical/privacy risks (data, consent, bias) and propose mitigations.",
+          "Create a simple timeline and resource plan; flag dependencies.",
+          "Have a colleague or stakeholder review for feasibility and clarity."
+        ],
+        "tags": [
+          "Research",
+          "Grantwriting",
+          "Ethics",
+          "Planning"
+        ]
+      }
+    ],
+    "priority": 90,
+    "explain": "Structured prewriting for grant/IRB with risk/mitigation framing."
+  },
+  {
+    "id": "core_program_readiness",
+    "when": {
+      "focus": [
+        "program"
+      ],
+      "topicAny": [
+        "policy",
+        "governance",
+        "implementation",
+        "workflow",
+        "training"
+      ],
+      "mode": [
+        "assign",
+        "capstone",
+        "quick"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Program-level AI readiness checklist",
+        "deliverable": "Checklist + communication plan",
+        "steps": [
+          "Identify stakeholders (faculty, students, IT, library, compliance).",
+          "Draft a checklist for responsible AI use (privacy, integrity, accessibility, documentation).",
+          "Create a communication plan for rollout: FAQs, examples, and escalation paths.",
+          "Pilot with a small group; collect feedback and revise."
+        ],
+        "tags": [
+          "Program/Admin",
+          "Governance",
+          "Policy",
+          "Implementation"
+        ]
+      }
+    ],
+    "priority": 88,
+    "explain": "Program-level checklist + comms plan for responsible AI adoption."
+  },
+  {
+    "id": "disc_health_quick_apply",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "patient",
+        "triage",
+        "pharmacology"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Quick (Apply) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "quick",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_health_quick_analyze",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "care plan",
+        "simulation",
+        "evidence-based practice"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Quick (Analyze) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "quick",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_health_quick_evaluate",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "simulation",
+        "clinical",
+        "evidence-based practice"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Quick (Evaluate) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "quick",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_health_quick_create",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "pharmacology",
+        "diagnosis",
+        "care plan"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Quick (Create) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "quick",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_health_assign_apply",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "diagnosis",
+        "patient",
+        "evidence-based practice"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Assign (Apply) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "assign",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_health_assign_analyze",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "simulation",
+        "care plan",
+        "diagnosis"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Assign (Analyze) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "assign",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_health_assign_evaluate",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "clinical",
+        "diagnosis",
+        "care plan"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Assign (Evaluate) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "assign",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_health_assign_create",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "clinical",
+        "diagnosis",
+        "simulation"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Assign (Create) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "assign",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_health_capstone_apply",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "clinical",
+        "care plan",
+        "triage"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Capstone (Apply) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "capstone",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_health_capstone_analyze",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "simulation",
+        "pharmacology",
+        "patient"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Capstone (Analyze) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "capstone",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_health_capstone_evaluate",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "care plan",
+        "triage",
+        "evidence-based practice"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Capstone (Evaluate) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "capstone",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_health_capstone_create",
+    "when": {
+      "discipline": [
+        "health"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "simulation",
+        "triage",
+        "pharmacology"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Health/Nursing: Capstone (Create) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "If working with clinical scenarios, treat AI outputs as hypothetical: validate against clinical guidelines and local standards; avoid PHI.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Health/Nursing",
+          "capstone",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_quick_apply",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "algorithm",
+        "model",
+        "lab"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Quick (Apply) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "quick",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_quick_analyze",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "optimization",
+        "algorithm",
+        "dataset"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Quick (Analyze) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "quick",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_quick_evaluate",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "model",
+        "experiment",
+        "lab"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Quick (Evaluate) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "quick",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_quick_create",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "algorithm",
+        "statistics",
+        "dataset"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Quick (Create) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "quick",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_assign_apply",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "experiment",
+        "lab",
+        "statistics"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Assign (Apply) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "assign",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_assign_analyze",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "statistics",
+        "dataset",
+        "optimization"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Assign (Analyze) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "assign",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_assign_evaluate",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "algorithm",
+        "experiment",
+        "lab"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Assign (Evaluate) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "assign",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_assign_create",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "simulation",
+        "algorithm",
+        "optimization"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Assign (Create) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "assign",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_capstone_apply",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "lab",
+        "algorithm",
+        "statistics"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Capstone (Apply) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "capstone",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_capstone_analyze",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "algorithm",
+        "statistics",
+        "experiment"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Capstone (Analyze) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "capstone",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_capstone_evaluate",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "experiment",
+        "optimization",
+        "statistics"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Capstone (Evaluate) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "capstone",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_stem_capstone_create",
+    "when": {
+      "discipline": [
+        "stem"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "simulation",
+        "model",
+        "statistics"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "STEM: Capstone (Create) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "STEM",
+          "capstone",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_quick_apply",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "ethnography",
+        "community",
+        "inequality"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Quick (Apply) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "quick",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_quick_analyze",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "community",
+        "inequality",
+        "case study"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Quick (Analyze) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "quick",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_quick_evaluate",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "policy",
+        "public opinion",
+        "theory"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Quick (Evaluate) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "quick",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_quick_create",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "case study",
+        "policy",
+        "survey"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Quick (Create) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "quick",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_assign_apply",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "ethnography",
+        "community",
+        "public opinion"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Assign (Apply) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "assign",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_assign_analyze",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "inequality",
+        "community",
+        "ethnography"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Assign (Analyze) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "assign",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_assign_evaluate",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "theory",
+        "inequality",
+        "survey"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Assign (Evaluate) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "assign",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_assign_create",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "inequality",
+        "case study",
+        "public opinion"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Assign (Create) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "assign",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_capstone_apply",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "theory",
+        "community",
+        "ethnography"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Capstone (Apply) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "capstone",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_capstone_analyze",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "inequality",
+        "public opinion",
+        "ethnography"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Capstone (Analyze) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "capstone",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_capstone_evaluate",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "ethnography",
+        "public opinion",
+        "community"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Capstone (Evaluate) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "capstone",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_social_capstone_create",
+    "when": {
+      "discipline": [
+        "social"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "case study",
+        "public opinion",
+        "community"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Social Sciences: Capstone (Create) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Social Sciences",
+          "capstone",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_quick_apply",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "interpretation",
+        "history",
+        "archive"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Quick (Apply) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "quick",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_quick_analyze",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "interpretation",
+        "textual analysis",
+        "ethics"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Quick (Analyze) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "quick",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_quick_evaluate",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "narrative",
+        "archive",
+        "rhetoric"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Quick (Evaluate) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "quick",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_quick_create",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "rhetoric",
+        "philosophy",
+        "history"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Quick (Create) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "quick",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_assign_apply",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "history",
+        "textual analysis",
+        "archive"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Assign (Apply) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "assign",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_assign_analyze",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "philosophy",
+        "ethics",
+        "narrative"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Assign (Analyze) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "assign",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_assign_evaluate",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "rhetoric",
+        "archive",
+        "philosophy"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Assign (Evaluate) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "assign",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_assign_create",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "history",
+        "interpretation",
+        "archive"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Assign (Create) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "assign",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_capstone_apply",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "history",
+        "textual analysis",
+        "archive"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Capstone (Apply) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "capstone",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_capstone_analyze",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "narrative",
+        "philosophy",
+        "archive"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Capstone (Analyze) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "capstone",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_capstone_evaluate",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "ethics",
+        "narrative",
+        "history"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Capstone (Evaluate) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "capstone",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_humanities_capstone_create",
+    "when": {
+      "discipline": [
+        "humanities"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "narrative",
+        "ethics",
+        "rhetoric"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Humanities: Capstone (Create) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Generate multiple interpretations; then anchor arguments in primary texts/archives and scholarly commentary.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Humanities",
+          "capstone",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_quick_apply",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "finance",
+        "stakeholder",
+        "market"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Quick (Apply) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "quick",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_quick_analyze",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "stakeholder",
+        "market",
+        "strategy"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Quick (Analyze) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "quick",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_quick_evaluate",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "strategy",
+        "finance",
+        "risk"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Quick (Evaluate) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "quick",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_quick_create",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "supply chain",
+        "analysis",
+        "operations"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Quick (Create) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "quick",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_assign_apply",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "supply chain",
+        "analysis",
+        "stakeholder"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Assign (Apply) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "assign",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_assign_analyze",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "risk",
+        "supply chain",
+        "finance"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Assign (Analyze) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "assign",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_assign_evaluate",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "analysis",
+        "finance",
+        "operations"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Assign (Evaluate) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "assign",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_assign_create",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "risk",
+        "supply chain",
+        "finance"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Assign (Create) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "assign",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_capstone_apply",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "market",
+        "strategy",
+        "finance"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Capstone (Apply) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "capstone",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_capstone_analyze",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "risk",
+        "strategy",
+        "analysis"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Capstone (Analyze) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "capstone",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_capstone_evaluate",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "analysis",
+        "stakeholder",
+        "supply chain"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Capstone (Evaluate) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "capstone",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_business_capstone_create",
+    "when": {
+      "discipline": [
+        "business"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "finance",
+        "stakeholder",
+        "risk"
+      ],
+      "anyTools": [
+        "Elicit",
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Julius",
+        "Quadratic",
+        "Scite"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Business: Capstone (Create) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Stress-test assumptions (market conditions, data sources, stakeholder incentives) and document sensitivity analyses.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Business",
+          "capstone",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_quick_apply",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "reflection",
+        "equity",
+        "assessment"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Quick (Apply) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "quick",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_quick_analyze",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "curriculum",
+        "instructional design",
+        "assessment"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Quick (Analyze) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "quick",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_quick_evaluate",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "rubric",
+        "learning objectives",
+        "curriculum"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Quick (Evaluate) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "quick",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_quick_create",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "learning objectives",
+        "rubric",
+        "assessment"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Quick (Create) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "quick",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_assign_apply",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "learning objectives",
+        "assessment",
+        "equity"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Assign (Apply) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "assign",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_assign_analyze",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "curriculum",
+        "assessment",
+        "learning objectives"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Assign (Analyze) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "assign",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_assign_evaluate",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "assessment",
+        "curriculum",
+        "reflection"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Assign (Evaluate) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "assign",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_assign_create",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "reflection",
+        "assessment",
+        "instructional design"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Assign (Create) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "assign",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_capstone_apply",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "assessment",
+        "curriculum",
+        "instructional design"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Capstone (Apply) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "capstone",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_capstone_analyze",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "reflection",
+        "rubric",
+        "learning objectives"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Capstone (Analyze) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "capstone",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_capstone_evaluate",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "assessment",
+        "equity",
+        "rubric"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Capstone (Evaluate) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "capstone",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_education_capstone_create",
+    "when": {
+      "discipline": [
+        "education"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "learning objectives",
+        "assessment",
+        "reflection"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Education: Capstone (Create) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Education",
+          "capstone",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_quick_apply",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "information literacy",
+        "database",
+        "metadata"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Quick (Apply) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "quick",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_quick_analyze",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "search strategy",
+        "citation",
+        "metadata"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Quick (Analyze) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "quick",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_quick_evaluate",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "metadata",
+        "citation",
+        "information literacy"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Quick (Evaluate) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "quick",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_quick_create",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "misinformation",
+        "information literacy",
+        "database"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Quick (Create) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "quick",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_assign_apply",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "metadata",
+        "search strategy",
+        "citation"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Assign (Apply) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "assign",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_assign_analyze",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "database",
+        "metadata",
+        "information literacy"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Assign (Analyze) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "assign",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_assign_evaluate",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "database",
+        "metadata",
+        "misinformation"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Assign (Evaluate) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "assign",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_assign_create",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "citation",
+        "search strategy",
+        "metadata"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Assign (Create) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "assign",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_capstone_apply",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "search strategy",
+        "database",
+        "information literacy"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Capstone (Apply) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "capstone",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_capstone_analyze",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "search strategy",
+        "metadata",
+        "information literacy"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Capstone (Analyze) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "capstone",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_capstone_evaluate",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "citation",
+        "information literacy",
+        "misinformation"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Capstone (Evaluate) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "capstone",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_library_capstone_create",
+    "when": {
+      "discipline": [
+        "library"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "information literacy",
+        "misinformation",
+        "database"
+      ],
+      "anyTools": [
+        "Semantic Scholar",
+        "ResearchRabbit",
+        "Elicit",
+        "NotebookLM",
+        "Scite",
+        "Consensus"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Library/Info: Capstone (Create) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Build a search strategy (keywords, subject headings, filters); compare results across tools; note bias/coverage gaps.",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Library/Info",
+          "capstone",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_quick_apply",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "video",
+        "storyboard",
+        "audio"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Quick (Apply) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "quick",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_quick_analyze",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "storyboard",
+        "portfolio",
+        "critique"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Quick (Analyze) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "quick",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_quick_evaluate",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "audio",
+        "portfolio",
+        "critique"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Quick (Evaluate) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "quick",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_quick_create",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "video",
+        "critique",
+        "storyboard"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Quick (Create) activity using your toolkit",
+        "deliverable": "In-class activity + reflection",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "quick",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_assign_apply",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "video",
+        "composition",
+        "audio"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Assign (Apply) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "assign",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_assign_analyze",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "critique",
+        "video",
+        "storyboard"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Assign (Analyze) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "assign",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_assign_evaluate",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "video",
+        "audio",
+        "composition"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Assign (Evaluate) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "assign",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_assign_create",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "video",
+        "audio",
+        "visual design"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Assign (Create) activity using your toolkit",
+        "deliverable": "Assignment deliverable + transparency note",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "assign",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 75,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_capstone_apply",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "topicAny": [
+        "video",
+        "storyboard",
+        "portfolio"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Capstone (Apply) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "capstone",
+          "apply",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_capstone_analyze",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "topicAny": [
+        "video",
+        "storyboard",
+        "portfolio"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Capstone (Analyze) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "capstone",
+          "analyze",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_capstone_evaluate",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "topicAny": [
+        "storyboard",
+        "video",
+        "composition"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Capstone (Evaluate) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "capstone",
+          "evaluate",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "disc_arts_capstone_create",
+    "when": {
+      "discipline": [
+        "arts"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "topicAny": [
+        "video",
+        "critique",
+        "portfolio"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Arts/Media: Capstone (Create) activity using your toolkit",
+        "deliverable": "Major project plan + iterative drafts",
+        "steps": [
+          "Define a concrete question within your discipline (scope it to what you can check).",
+          "Use discovery/lit tools to gather credible sources or evidence; keep a citations list.",
+          "Use a writing tool to draft an output; then verify key claims against the sources.",
+          "Add a short transparency note: what AI did, what you checked, and what limitations remain."
+        ],
+        "tags": [
+          "Arts/Media",
+          "capstone",
+          "create",
+          "Discipline"
+        ]
+      }
+    ],
+    "priority": 80,
+    "explain": "Discipline-targeted workflow emphasizing evidence and transparency."
+  },
+  {
+    "id": "bloom_remember_quick",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "remember"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Concept check: AI-generated quiz + correction",
+        "deliverable": "5-question quiz + answer key rationale",
+        "steps": [
+          "Use AI to generate 5 concept-check questions on the topic (label as AI-generated).",
+          "Students answer; then compare with an instructor-provided or source-backed key.",
+          "Students correct any AI errors and add a citation for each corrected point."
+        ],
+        "tags": [
+          "Teaching",
+          "Remember/Understand",
+          "Quiz",
+          "quick"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_remember_assign",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "remember"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Concept check: AI-generated quiz + correction",
+        "deliverable": "5-question quiz + answer key rationale",
+        "steps": [
+          "Use AI to generate 5 concept-check questions on the topic (label as AI-generated).",
+          "Students answer; then compare with an instructor-provided or source-backed key.",
+          "Students correct any AI errors and add a citation for each corrected point."
+        ],
+        "tags": [
+          "Teaching",
+          "Remember/Understand",
+          "Quiz",
+          "assign"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_remember_capstone",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "remember"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Concept check: AI-generated quiz + correction",
+        "deliverable": "5-question quiz + answer key rationale",
+        "steps": [
+          "Use AI to generate 5 concept-check questions on the topic (label as AI-generated).",
+          "Students answer; then compare with an instructor-provided or source-backed key.",
+          "Students correct any AI errors and add a citation for each corrected point."
+        ],
+        "tags": [
+          "Teaching",
+          "Remember/Understand",
+          "Quiz",
+          "capstone"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_apply_quick",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Worked example remix",
+        "deliverable": "Worked example + variant problem set",
+        "steps": [
+          "Ask AI for a worked example on the topic.",
+          "Students identify the method/steps and apply them to a new variant you provide.",
+          "Students annotate where AI\u2019s method works and where it breaks (edge cases)."
+        ],
+        "tags": [
+          "Teaching",
+          "Apply",
+          "Practice",
+          "quick"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_apply_assign",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Worked example remix",
+        "deliverable": "Worked example + variant problem set",
+        "steps": [
+          "Ask AI for a worked example on the topic.",
+          "Students identify the method/steps and apply them to a new variant you provide.",
+          "Students annotate where AI\u2019s method works and where it breaks (edge cases)."
+        ],
+        "tags": [
+          "Teaching",
+          "Apply",
+          "Practice",
+          "assign"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_apply_capstone",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "apply"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Worked example remix",
+        "deliverable": "Worked example + variant problem set",
+        "steps": [
+          "Ask AI for a worked example on the topic.",
+          "Students identify the method/steps and apply them to a new variant you provide.",
+          "Students annotate where AI\u2019s method works and where it breaks (edge cases)."
+        ],
+        "tags": [
+          "Teaching",
+          "Apply",
+          "Practice",
+          "capstone"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_analyze_quick",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM",
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Methodology teardown",
+        "deliverable": "Methods critique memo",
+        "steps": [
+          "Use AI to summarize a study or method (you provide the paper).",
+          "Students map: research question \u2192 method \u2192 evidence \u2192 inference chain.",
+          "Students identify confounds/limitations and propose improvements."
+        ],
+        "tags": [
+          "Teaching",
+          "Analyze",
+          "Methods",
+          "quick"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_analyze_assign",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM",
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Methodology teardown",
+        "deliverable": "Methods critique memo",
+        "steps": [
+          "Use AI to summarize a study or method (you provide the paper).",
+          "Students map: research question \u2192 method \u2192 evidence \u2192 inference chain.",
+          "Students identify confounds/limitations and propose improvements."
+        ],
+        "tags": [
+          "Teaching",
+          "Analyze",
+          "Methods",
+          "assign"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_analyze_capstone",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "analyze"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM",
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Methodology teardown",
+        "deliverable": "Methods critique memo",
+        "steps": [
+          "Use AI to summarize a study or method (you provide the paper).",
+          "Students map: research question \u2192 method \u2192 evidence \u2192 inference chain.",
+          "Students identify confounds/limitations and propose improvements."
+        ],
+        "tags": [
+          "Teaching",
+          "Analyze",
+          "Methods",
+          "capstone"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_evaluate_quick",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM",
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Argument audit + claim-strength ladder",
+        "deliverable": "Claim ladder + audit log",
+        "steps": [
+          "Draft an argument (or have AI draft) with 6 claims.",
+          "Students rank claims by evidential strength (with citations).",
+          "Students rewrite 2 weak claims into stronger, properly qualified claims."
+        ],
+        "tags": [
+          "Teaching",
+          "Evaluate",
+          "Rigor",
+          "quick"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_evaluate_assign",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM",
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Argument audit + claim-strength ladder",
+        "deliverable": "Claim ladder + audit log",
+        "steps": [
+          "Draft an argument (or have AI draft) with 6 claims.",
+          "Students rank claims by evidential strength (with citations).",
+          "Students rewrite 2 weak claims into stronger, properly qualified claims."
+        ],
+        "tags": [
+          "Teaching",
+          "Evaluate",
+          "Rigor",
+          "assign"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_evaluate_capstone",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "evaluate"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "Scite",
+        "Consensus",
+        "NotebookLM",
+        "ChatGPT",
+        "Claude",
+        "Google Gemini"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Argument audit + claim-strength ladder",
+        "deliverable": "Claim ladder + audit log",
+        "steps": [
+          "Draft an argument (or have AI draft) with 6 claims.",
+          "Students rank claims by evidential strength (with citations).",
+          "Students rewrite 2 weak claims into stronger, properly qualified claims."
+        ],
+        "tags": [
+          "Teaching",
+          "Evaluate",
+          "Rigor",
+          "capstone"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_create_quick",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "mode": [
+        "quick"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Design sprint: assignment or research plan",
+        "deliverable": "Design brief + prototype",
+        "steps": [
+          "Use AI to propose 3 designs (assignment formats or study designs).",
+          "Students select one and produce a design brief: objectives, criteria, risks.",
+          "Peer review and revise; include an AI-transparency statement."
+        ],
+        "tags": [
+          "Teaching",
+          "Create",
+          "Design",
+          "quick"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_create_assign",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "mode": [
+        "assign"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Design sprint: assignment or research plan",
+        "deliverable": "Design brief + prototype",
+        "steps": [
+          "Use AI to propose 3 designs (assignment formats or study designs).",
+          "Students select one and produce a design brief: objectives, criteria, risks.",
+          "Peer review and revise; include an AI-transparency statement."
+        ],
+        "tags": [
+          "Teaching",
+          "Create",
+          "Design",
+          "assign"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "bloom_create_capstone",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "bloom": [
+        "create"
+      ],
+      "mode": [
+        "capstone"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "Perplexity"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Design sprint: assignment or research plan",
+        "deliverable": "Design brief + prototype",
+        "steps": [
+          "Use AI to propose 3 designs (assignment formats or study designs).",
+          "Students select one and produce a design brief: objectives, criteria, risks.",
+          "Peer review and revise; include an AI-transparency statement."
+        ],
+        "tags": [
+          "Teaching",
+          "Create",
+          "Design",
+          "capstone"
+        ]
+      }
+    ],
+    "priority": 82,
+    "explain": "Bloom-aligned activity template."
+  },
+  {
+    "id": "modality_online_quick",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "modality": [
+        "online"
+      ],
+      "mode": [
+        "quick"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Online discussion: AI as a \u2018first post\u2019 to critique",
+        "deliverable": "Discussion post + rebuttal + citations",
+        "steps": [
+          "AI generates a \u2018first post\u2019 stance on the topic (clearly labeled).",
+          "Students respond by correcting, expanding, and citing course readings.",
+          "Students post a rebuttal that addresses counterarguments and evidence."
+        ],
+        "tags": [
+          "Teaching",
+          "Online",
+          "Discussion",
+          "Evaluate",
+          "quick"
+        ]
+      }
+    ],
+    "priority": 80
+  },
+  {
+    "id": "modality_online_assign",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "modality": [
+        "online"
+      ],
+      "mode": [
+        "assign"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Online discussion: AI as a \u2018first post\u2019 to critique",
+        "deliverable": "Discussion post + rebuttal + citations",
+        "steps": [
+          "AI generates a \u2018first post\u2019 stance on the topic (clearly labeled).",
+          "Students respond by correcting, expanding, and citing course readings.",
+          "Students post a rebuttal that addresses counterarguments and evidence."
+        ],
+        "tags": [
+          "Teaching",
+          "Online",
+          "Discussion",
+          "Evaluate",
+          "assign"
+        ]
+      }
+    ],
+    "priority": 80
+  },
+  {
+    "id": "modality_f2f_quick",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "modality": [
+        "f2f"
+      ],
+      "mode": [
+        "quick"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "In-class jigsaw: AI-generated perspectives",
+        "deliverable": "Group synthesis board + exit ticket",
+        "steps": [
+          "AI generates 4 perspectives on the topic.",
+          "Groups each fact-check one perspective using library sources.",
+          "Class synthesizes: what holds, what fails, and what\u2019s missing."
+        ],
+        "tags": [
+          "Teaching",
+          "F2F",
+          "Active Learning",
+          "Analyze",
+          "quick"
+        ]
+      }
+    ],
+    "priority": 80
+  },
+  {
+    "id": "modality_f2f_assign",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "modality": [
+        "f2f"
+      ],
+      "mode": [
+        "assign"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "In-class jigsaw: AI-generated perspectives",
+        "deliverable": "Group synthesis board + exit ticket",
+        "steps": [
+          "AI generates 4 perspectives on the topic.",
+          "Groups each fact-check one perspective using library sources.",
+          "Class synthesizes: what holds, what fails, and what\u2019s missing."
+        ],
+        "tags": [
+          "Teaching",
+          "F2F",
+          "Active Learning",
+          "Analyze",
+          "assign"
+        ]
+      }
+    ],
+    "priority": 80
+  },
+  {
+    "id": "modality_hybrid_quick",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "modality": [
+        "hybrid"
+      ],
+      "mode": [
+        "quick"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Hybrid workflow: prep with AI, validate in class",
+        "deliverable": "Prep worksheet + in-class validation notes",
+        "steps": [
+          "Students use AI pre-class to generate questions and predicted misconceptions.",
+          "In class, groups validate with readings/data and revise questions.",
+          "Submit a revised \u2018best questions\u2019 set with citations."
+        ],
+        "tags": [
+          "Teaching",
+          "Hybrid",
+          "Prep",
+          "Analyze",
+          "quick"
+        ]
+      }
+    ],
+    "priority": 80
+  },
+  {
+    "id": "modality_hybrid_assign",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "modality": [
+        "hybrid"
+      ],
+      "mode": [
+        "assign"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Hybrid workflow: prep with AI, validate in class",
+        "deliverable": "Prep worksheet + in-class validation notes",
+        "steps": [
+          "Students use AI pre-class to generate questions and predicted misconceptions.",
+          "In class, groups validate with readings/data and revise questions.",
+          "Submit a revised \u2018best questions\u2019 set with citations."
+        ],
+        "tags": [
+          "Teaching",
+          "Hybrid",
+          "Prep",
+          "Analyze",
+          "assign"
+        ]
+      }
+    ],
+    "priority": 80
+  },
+  {
+    "id": "modality_hyflex_quick",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "modality": [
+        "hyflex"
+      ],
+      "mode": [
+        "quick"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "HyFlex parallel activity: shared evidence table",
+        "deliverable": "Shared evidence table + short reflection",
+        "steps": [
+          "AI suggests candidate sources and claims; students must verify sources.",
+          "Both modalities contribute to a shared evidence table (claims, evidence, limitation).",
+          "Students write a reflection on reliability and verification."
+        ],
+        "tags": [
+          "Teaching",
+          "HyFlex",
+          "Collaboration",
+          "Rigor",
+          "quick"
+        ]
+      }
+    ],
+    "priority": 80
+  },
+  {
+    "id": "modality_hyflex_assign",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "modality": [
+        "hyflex"
+      ],
+      "mode": [
+        "assign"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "HyFlex parallel activity: shared evidence table",
+        "deliverable": "Shared evidence table + short reflection",
+        "steps": [
+          "AI suggests candidate sources and claims; students must verify sources.",
+          "Both modalities contribute to a shared evidence table (claims, evidence, limitation).",
+          "Students write a reflection on reliability and verification."
+        ],
+        "tags": [
+          "Teaching",
+          "HyFlex",
+          "Collaboration",
+          "Rigor",
+          "assign"
+        ]
+      }
+    ],
+    "priority": 80
+  },
+  {
+    "id": "genai_images_on",
+    "when": {
+      "genai": {
+        "enabled": true
+      },
+      "anyTools": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion"
+      ],
+      "focus": [
+        "teaching",
+        "both",
+        "program"
+      ]
+    },
+    "addIdeas": [
+      {
+        "id": "genai_images_storyboard",
+        "title": "Image prompt storyboard for instruction/outreach",
+        "deliverable": "3-image storyboard + alt-text + usage note",
+        "steps": [
+          "Draft a storyboard (3 frames) for an instructional concept or outreach message (no real people).",
+          "Generate images with your image tool; iterate prompts for clarity and bias reduction.",
+          "Write alt-text for each image and a note about what was AI-generated and how it can be reused."
+        ],
+        "tags": [
+          "GenAI",
+          "Images",
+          "Accessibility",
+          "Design"
+        ]
+      }
+    ],
+    "priority": 78
+  },
+  {
+    "id": "genai_audio_on",
+    "when": {
+      "genai": {
+        "enabled": true
+      },
+      "anyTools": [
+        "ElevenLabs (AI Voice Generator)",
+        "Suno (AI Music Generator)",
+        "Audio AI (An AI Music Cleaner)"
+      ],
+      "focus": [
+        "teaching",
+        "both",
+        "program"
+      ]
+    },
+    "addIdeas": [
+      {
+        "id": "genai_audio_accessible",
+        "title": "Audio cleanup for lecture capture / interview clarity",
+        "deliverable": "Cleaned audio sample + transcript check",
+        "steps": [
+          "Use an audio cleanup tool to reduce noise and improve clarity.",
+          "Generate or correct a transcript; spot-check accuracy against the audio.",
+          "Add a brief accessibility statement about transcription accuracy and limitations."
+        ],
+        "tags": [
+          "GenAI",
+          "Audio",
+          "Accessibility"
+        ]
+      }
+    ],
+    "priority": 78
+  },
+  {
+    "id": "genai_video_on",
+    "when": {
+      "genai": {
+        "enabled": true
+      },
+      "anyTools": [
+        "Runway",
+        "Pika Labs",
+        "Sora"
+      ],
+      "focus": [
+        "teaching",
+        "both",
+        "program"
+      ]
+    },
+    "addIdeas": [
+      {
+        "id": "genai_video_microclip",
+        "title": "Micro-clip for outreach (non-realistic characters)",
+        "deliverable": "10\u201320s clip + disclosure caption",
+        "steps": [
+          "Write a short script for a micro-clip (avoid realistic human likeness).",
+          "Generate a clip using a video tool; keep it short and clearly stylized.",
+          "Add a disclosure caption and verify that any music/assets are properly licensed."
+        ],
+        "tags": [
+          "GenAI",
+          "Video",
+          "Outreach",
+          "Policy"
+        ]
+      }
+    ],
+    "priority": 78
+  },
+  {
+    "id": "ethics_ferpa_privacy",
+    "when": {
+      "topicAny": [
+        "ferpa",
+        "privacy",
+        "student data",
+        "consent",
+        "phi",
+        "hipaa"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Safety check: privacy, student data, and permissions",
+        "deliverable": "Brief risk/mitigation note",
+        "steps": [
+          "Identify whether any student data, grades, or identifiable info is involved.",
+          "If yes, avoid pasting sensitive data into third-party tools; use approved systems.",
+          "Write a short mitigation plan (redaction, consent, secure storage, alternatives)."
+        ],
+        "tags": [
+          "Ethics",
+          "Privacy",
+          "Compliance"
+        ]
+      }
+    ],
+    "priority": 97,
+    "explain": "Ethics-first guardrail when topic indicates risk."
+  },
+  {
+    "id": "ethics_bias",
+    "when": {
+      "topicAny": [
+        "bias",
+        "equity",
+        "fairness",
+        "stereotype",
+        "representation"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Safety check: bias and representation audit",
+        "deliverable": "Bias audit checklist + revisions",
+        "steps": [
+          "Scan outputs for stereotypes, missing perspectives, or biased language.",
+          "Cross-check with credible sources representing impacted communities.",
+          "Revise prompts/outputs and document what changed and why."
+        ],
+        "tags": [
+          "Ethics",
+          "Bias",
+          "Equity"
+        ]
+      }
+    ],
+    "priority": 97,
+    "explain": "Ethics-first guardrail when topic indicates risk."
+  },
+  {
+    "id": "ethics_ip",
+    "when": {
+      "topicAny": [
+        "copyright",
+        "license",
+        "intellectual property",
+        "attribution",
+        "plagiarism"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Safety check: copyright and attribution",
+        "deliverable": "Attribution + licensing note",
+        "steps": [
+          "Confirm whether tool outputs can be reused and under what terms.",
+          "Add attribution where required; avoid copying protected text/media without permission.",
+          "Include a transparency note describing AI assistance and what was original."
+        ],
+        "tags": [
+          "Ethics",
+          "Copyright",
+          "Transparency"
+        ]
+      }
+    ],
+    "priority": 97,
+    "explain": "Ethics-first guardrail when topic indicates risk."
+  },
+  {
+    "id": "soft_peer_review",
+    "when": {
+      "focus": [
+        "teaching",
+        "both"
+      ],
+      "assessment": [
+        "peer",
+        "any"
+      ],
+      "mode": [
+        "assign",
+        "capstone"
+      ]
+    },
+    "soft": {
+      "topicAny": [
+        "writing",
+        "argument",
+        "analysis",
+        "draft"
+      ],
+      "anyTools": [
+        "ChatGPT",
+        "Claude",
+        "Google Gemini",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Peer-review studio with AI-assisted revision questions",
+        "deliverable": "Draft + peer feedback + revision plan",
+        "steps": [
+          "Students submit a draft + 3 questions they want feedback on.",
+          "AI generates 5 revision prompts (clarity, evidence, structure) to guide peer review.",
+          "Peers respond using rubric criteria; students write a revision plan with cited evidence needs.",
+          "Optional: require a transparency statement describing AI usage."
+        ],
+        "tags": [
+          "Teaching",
+          "Peer Review",
+          "Revision",
+          "Workshop"
+        ]
+      }
+    ],
+    "priority": 85
+  },
+  {
+    "id": "soft_portfolio_iteration",
+    "when": {
+      "focus": [
+        "teaching",
+        "both",
+        "research"
+      ],
+      "assessment": [
+        "portfolio",
+        "any"
+      ],
+      "mode": [
+        "capstone"
+      ]
+    },
+    "soft": {
+      "topicAny": [
+        "portfolio",
+        "iteration",
+        "draft",
+        "feedback"
+      ],
+      "anyTools": [
+        "Claude",
+        "ChatGPT",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Iterative portfolio with AI-supported reflection checkpoints",
+        "deliverable": "Portfolio + 3 reflection checkpoints + final synthesis",
+        "steps": [
+          "Define portfolio criteria and checkpoints (what \u2018good\u2019 looks like).",
+          "At each checkpoint, use AI to generate reflective questions; answer with evidence from your work.",
+          "Use feedback (human + AI prompts) to revise; keep a change log.",
+          "Submit final synthesis describing growth, limitations, and next steps."
+        ],
+        "tags": [
+          "Portfolio",
+          "Reflection",
+          "Iteration",
+          "Metacognition"
+        ]
+      }
+    ],
+    "priority": 84
+  },
+  {
+    "id": "soft_misinfo_lab",
+    "when": {
+      "focus": [
+        "teaching",
+        "both",
+        "library"
+      ],
+      "mode": [
+        "assign",
+        "capstone",
+        "quick"
+      ]
+    },
+    "soft": {
+      "topicAny": [
+        "misinformation",
+        "disinformation",
+        "media literacy",
+        "information literacy"
+      ],
+      "anyTools": [
+        "Perplexity",
+        "Semantic Scholar",
+        "Scite",
+        "NotebookLM"
+      ]
+    },
+    "addIdeas": [
+      {
+        "title": "Misinformation lab: trace claims across sources",
+        "deliverable": "Claim trace report + source credibility rubric",
+        "steps": [
+          "Pick one circulating claim and locate 5 sources that repeat it.",
+          "Use tools to find original evidence (or lack thereof) and how citations mutate.",
+          "Build a credibility rubric; rate each source and justify with evidence.",
+          "Write a short \u2018what to do next\u2019 guidance note for non-experts."
+        ],
+        "tags": [
+          "Information Literacy",
+          "Misinformation",
+          "Evidence",
+          "Evaluation"
+        ]
+      }
+    ],
+    "priority": 90
+  }
+]
