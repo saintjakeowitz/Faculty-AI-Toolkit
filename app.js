@@ -2,7 +2,7 @@
   "use strict";
 
   // ---- CONFIG ----
-  var RULES_URL = "./faculty_ai_toolkit_rules_megapack_v0_base_plus_v1_v2.json";
+  var RULES_URL = "./faculty_ai_toolkit_rules_expansion_pack_vHuge.json";
 
   var TOOLS = {
     productivity: [
