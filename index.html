@@ -2016,7 +2016,7 @@ var RULES = [
         desc:"Use Rayyan to screen abstracts for systematic review eligibility. AI accelerates process. Students perform full-text review and quality assessment.",
         tags:["systematic review","screening","health","EBP"] }
     ]
-  }
+  },
 
   /* SOCIAL SCIENCES - QUALITATIVE METHODS DETAILED */
   { id:"soc_qualitative_detailed",
@@ -2174,6 +2174,11 @@ function matchRules(){
     var w = rule.when;
     var score = rule.priority || 0;
     var anyHit = false;
+
+    // CRITICAL: If user selects discipline, rule MUST match that discipline (or have no discipline filter)
+    if(S.discipline && w.discipline && w.discipline.indexOf(S.discipline)===-1){
+      continue; // Skip this rule - discipline doesn't match
+    }
 
     if(w.focus && S.focus && w.focus.indexOf(S.focus)!==-1){ score+=5; anyHit=true; }
     if(w.depth && S.depth && w.depth.indexOf(S.depth)!==-1){ score+=4; anyHit=true; }
