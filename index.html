@@ -147,15 +147,16 @@ body::before{
 
 /* ── OPTION BUTTONS ── */
 .opt{
-  width:100%;padding:10px 13px;
+  width:100%;padding:14px 15px;
   border:2px solid var(--border);border-radius:var(--r-sm);
   background:rgba(255,255,255,.035);
   color:var(--off-white);
-  font-family:var(--font-b);font-size:13.5px;font-weight:500;
+  font-family:var(--font-b);font-size:14px;font-weight:500;
   text-align:left;cursor:pointer;
   transition:all var(--ease);
-  display:flex;align-items:flex-start;gap:9px;
+  display:flex;align-items:center;gap:10px;
   position:relative;overflow:hidden;
+  flex:1;min-height:0;
 }
 .opt::before{
   content:'';position:absolute;left:0;top:0;bottom:0;width:3px;
@@ -173,10 +174,10 @@ body::before{
   color:var(--white);
 }
 .opt.sel::before{opacity:1;}
-.opt__em{font-size:18px;flex-shrink:0;margin-top:1px;}
+.opt__em{font-size:22px;flex-shrink:0;}
 .opt__wrap{flex:1;}
-.opt__lbl{font-weight:600;font-size:13.5px;display:block;}
-.opt__desc{font-size:11.5px;color:var(--muted);margin-top:2px;display:block;line-height:1.35;}
+.opt__lbl{font-weight:600;font-size:14.5px;display:block;}
+.opt__desc{font-size:12px;color:var(--muted);margin-top:2px;display:block;line-height:1.35;}
 .opt.sel .opt__desc{color:rgba(222,187,112,.75);}
 
 /* topic row spans full width */
@@ -491,11 +492,7 @@ body::before{
           <span class="opt__wrap"><span class="opt__lbl">Academic Research (Own)</span><span class="opt__desc">Your scholarship, publication, grants</span></span>
         </button>
         <button class="opt" data-value="both">
-          <span class="opt__em">🔬</span>
-          <span class="opt__wrap"><span class="opt__lbl">Teaching + Research</span><span class="opt__desc">Integrated or parallel workflows</span></span>
-        </button>
-        <button class="opt" data-value="both">
-          <span class="opt__em">⚡</span>
+          <span class="opt__em">🔗</span>
           <span class="opt__wrap"><span class="opt__lbl">Teaching + Research</span><span class="opt__desc">Integrated or parallel workflows</span></span>
         </button>
         <button class="opt" data-value="admin">
