@@ -18,14 +18,14 @@
   --navy-card:  #781230;
   --slate:      #8a1638;
   --slate-lt:   #9c1c40;
-  --cyan:       #d4af5f;
-  --cyan-dim:   #a68a3e;
-  --cyan-glow:  rgba(212,175,95,.18);
+  --cyan:       #debb70;
+  --cyan-dim:   #b89a4a;
+  --cyan-glow:  rgba(222,187,112,.18);
   --white:      #ffffff;
-  --off-white:  #f8ebee;
-  --muted:      #d2afb6;
-  --border:     rgba(212,175,95,.22);
-  --border-sel: rgba(212,175,95,.6);
+  --off-white:  #ffffff;
+  --muted:      #e8ced3;
+  --border:     rgba(222,187,112,.22);
+  --border-sel: rgba(222,187,112,.6);
   --shadow:     0 8px 32px rgba(0,0,0,.4);
   --shadow-sm:  0 3px 12px rgba(0,0,0,.3);
   --r:          14px;
@@ -53,8 +53,8 @@ body::before{
   background:
     radial-gradient(ellipse 90% 55% at 15% 10%, rgba(149,6,49,.18) 0%, transparent 65%),
     radial-gradient(ellipse 70% 70% at 85% 90%, rgba(82,14,32,.9) 0%, transparent 70%),
-    repeating-linear-gradient(0deg,transparent,transparent 47px,rgba(212,175,95,.02) 48px),
-    repeating-linear-gradient(90deg,transparent,transparent 47px,rgba(212,175,95,.02) 48px);
+    repeating-linear-gradient(0deg,transparent,transparent 47px,rgba(222,187,112,.02) 48px),
+    repeating-linear-gradient(90deg,transparent,transparent 47px,rgba(222,187,112,.02) 48px);
 }
 /* ── LAYOUT ── */
 .app{position:relative;z-index:1;max-width:1380px;margin:0 auto;padding:28px 20px 80px;}
@@ -113,11 +113,11 @@ body::before{
 }
 .panel:focus-within,
 .panel:hover{
-  border-color:rgba(212,175,95,.3);
-  box-shadow:var(--shadow),0 0 0 1px rgba(212,175,95,.15);
+  border-color:rgba(222,187,112,.3);
+  box-shadow:var(--shadow),0 0 0 1px rgba(222,187,112,.15);
 }
 /* panel has active selection → glow */
-.panel.has-sel{border-color:rgba(212,175,95,.45);}
+.panel.has-sel{border-color:rgba(222,187,112,.45);}
 
 /* panel header — exact match to reference image: dark bg, icon circle, underlined title */
 .panel__hd{
@@ -132,7 +132,7 @@ body::before{
   background:var(--navy);border:2px solid var(--cyan-dim);
   display:flex;align-items:center;justify-content:center;
   font-size:22px;flex-shrink:0;
-  box-shadow:0 0 14px rgba(212,175,95,.22);
+  box-shadow:0 0 14px rgba(222,187,112,.22);
 }
 .panel__title{
   font-family:var(--font-h);font-size:19px;font-weight:700;
@@ -162,14 +162,14 @@ body::before{
   background:var(--cyan);opacity:0;transition:opacity var(--ease);
 }
 .opt:hover{
-  border-color:rgba(212,175,95,.38);
-  background:rgba(212,175,95,.07);
+  border-color:rgba(222,187,112,.38);
+  background:rgba(222,187,112,.07);
   color:var(--white);transform:translateX(3px);
 }
 .opt:hover::before{opacity:1;}
 .opt.sel{
   border-color:var(--cyan);
-  background:rgba(212,175,95,.14);
+  background:rgba(222,187,112,.14);
   color:var(--white);
 }
 .opt.sel::before{opacity:1;}
@@ -177,7 +177,7 @@ body::before{
 .opt__wrap{flex:1;}
 .opt__lbl{font-weight:600;font-size:13.5px;display:block;}
 .opt__desc{font-size:11.5px;color:var(--muted);margin-top:2px;display:block;line-height:1.35;}
-.opt.sel .opt__desc{color:rgba(212,175,95,.75);}
+.opt.sel .opt__desc{color:rgba(222,187,112,.75);}
 
 /* topic row spans full width */
 .topic-row{grid-column:1/-1;}
@@ -190,7 +190,7 @@ body::before{
   margin-top:8px;
 }
 .topic-input::placeholder{color:var(--muted);}
-.topic-input:focus{border-color:var(--cyan);background:rgba(212,175,95,.06);}
+.topic-input:focus{border-color:var(--cyan);background:rgba(222,187,112,.06);}
 
 /* ── RESULTS AREA ── */
 .results-wrap{margin-top:22px;}
@@ -213,8 +213,8 @@ body::before{
 }
 .chip{
   font-size:11.5px;font-weight:600;
-  color:var(--cyan);background:rgba(212,175,95,.1);
-  border:1px solid rgba(212,175,95,.28);
+  color:var(--cyan);background:rgba(222,187,112,.1);
+  border:1px solid rgba(222,187,112,.28);
   border-radius:999px;padding:3px 11px;white-space:nowrap;
 }
 .chip-placeholder{font-size:12px;color:var(--muted);font-style:italic;}
@@ -249,9 +249,9 @@ body::before{
   cursor:pointer;transition:all var(--ease);
   border:2px solid var(--border);background:rgba(255,255,255,.05);color:var(--off-white);
 }
-.ab-btn:hover{background:rgba(212,175,95,.12);border-color:var(--cyan);color:var(--white);}
+.ab-btn:hover{background:rgba(222,187,112,.12);border-color:var(--cyan);color:var(--white);}
 .ab-btn.primary{background:var(--cyan);border-color:var(--cyan);color:var(--navy);}
-.ab-btn.primary:hover{background:#e0c078;border-color:#e0c078;box-shadow:0 4px 18px rgba(212,175,95,.42);}
+.ab-btn.primary:hover{background:#e8ca82;border-color:#e8ca82;box-shadow:0 4px 18px rgba(222,187,112,.42);}
 
 /* results body */
 .results-bd{padding:22px;}
@@ -285,8 +285,8 @@ body::before{
   animation:cardIn .28s ease-out both;
 }
 .tool-card:hover{
-  border-color:rgba(212,175,95,.45);
-  box-shadow:var(--shadow-sm),0 0 0 1px rgba(212,175,95,.22);
+  border-color:rgba(222,187,112,.45);
+  box-shadow:var(--shadow-sm),0 0 0 1px rgba(222,187,112,.22);
   transform:translateY(-2px);
 }
 @keyframes cardIn{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
@@ -301,7 +301,7 @@ body::before{
   background:var(--navy-mid);border:2px solid var(--cyan-dim);
   display:flex;align-items:center;justify-content:center;
   font-size:26px;
-  box-shadow:0 0 18px rgba(212,175,95,.28);
+  box-shadow:0 0 18px rgba(222,187,112,.28);
 }
 .tool-card__body{padding:13px 15px;flex:1;min-width:0;}
 .tool-card__name{
@@ -328,7 +328,7 @@ body::before{
 /* ── ACTIVITY CARDS ── */
 .divider{
   height:1px;margin:6px 0 24px;
-  background:linear-gradient(90deg,transparent,rgba(212,175,95,.35),transparent);
+  background:linear-gradient(90deg,transparent,rgba(222,187,112,.35),transparent);
 }
 .act-grid{
   display:grid;
@@ -345,16 +345,16 @@ body::before{
   animation:cardIn .28s ease-out both;
 }
 .act-card:hover{
-  background:rgba(212,175,95,.07);
-  border-color:rgba(212,175,95,.38);
+  background:rgba(222,187,112,.07);
+  border-color:rgba(222,187,112,.38);
   border-left-color:var(--cyan);
   transform:translateX(4px);
 }
 .act-card--active{
-  background:rgba(212,175,95,.12) !important;
+  background:rgba(222,187,112,.12) !important;
   border-color:var(--cyan) !important;
   border-left-color:var(--cyan) !important;
-  box-shadow:0 0 0 1px rgba(212,175,95,.25);
+  box-shadow:0 0 0 1px rgba(222,187,112,.25);
   z-index:50;
 }
 .act-card__title{
@@ -365,7 +365,7 @@ body::before{
 .act-card__meta{display:flex;flex-wrap:wrap;gap:6px;}
 .act-meta-tag{
   font-size:11.5px;font-weight:600;
-  border:1px solid rgba(212,175,95,.22);border-radius:999px;
+  border:1px solid rgba(222,187,112,.22);border-radius:999px;
   padding:2px 9px;color:var(--muted);
 }
 
@@ -379,7 +379,7 @@ body::before{
   border:1.5px solid var(--cyan);
   border-radius:var(--r);
   padding:18px 20px;
-  box-shadow:0 12px 40px rgba(0,0,0,.7),0 0 0 1px rgba(212,175,95,.2);
+  box-shadow:0 12px 40px rgba(0,0,0,.7),0 0 0 1px rgba(222,187,112,.2);
   animation:popIn .18s ease-out both;
   color:var(--off-white);
   font-size:13.5px;
@@ -749,7 +749,7 @@ body::before{
 </div><!-- /app -->
 
 <!-- ══ CREATIVE COMMONS LICENSE FOOTER ══ -->
-<footer style="position:relative;z-index:1;text-align:center;padding:30px 20px 40px;border-top:1px solid rgba(212,175,95,.15);">
+<footer style="position:relative;z-index:1;text-align:center;padding:30px 20px 40px;border-top:1px solid rgba(222,187,112,.15);">
   <div style="max-width:600px;margin:0 auto;">
     <div style="display:flex;align-items:center;justify-content:center;gap:6px;margin-bottom:10px;">
       <!-- CC icon -->
@@ -762,7 +762,7 @@ body::before{
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30"><circle cx="15" cy="15" r="14" fill="none" stroke="#fff" stroke-width="1.5" opacity=".85"/><line x1="9" y1="12.5" x2="21" y2="12.5" stroke="#fff" stroke-width="2.2" opacity=".85"/><line x1="9" y1="17.5" x2="21" y2="17.5" stroke="#fff" stroke-width="2.2" opacity=".85"/></svg>
     </div>
     <p style="font-size:13px;color:#d2afb6;line-height:1.6;">
-      This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" style="color:#d4af5f;text-decoration:underline;text-underline-offset:2px;">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+      This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener" style="color:#debb70;text-decoration:underline;text-underline-offset:2px;">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
     </p>
     <p style="font-size:11.5px;color:#a08088;margin-top:6px;">
       Lewis University Library · CC BY-NC-ND 4.0
