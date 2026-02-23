@@ -10,24 +10,24 @@
 /* ════════════════════════════════════════════════════════════
    LEWIS UNIVERSITY LIBRARY AI EVALUATION TOOL
    Color base: #950631 — Lewis University crimson
-   Backgrounds lightened to be visibly red, WCAG AA/AAA
+   Lightened palette for visual warmth, WCAG AA compliant
 ════════════════════════════════════════════════════════════ */
 :root {
-  --navy:       #340814;
-  --navy-mid:   #420c1a;
-  --navy-card:  #520e20;
-  --slate:      #641028;
-  --slate-lt:   #781230;
+  --navy:       #520e20;
+  --navy-mid:   #641028;
+  --navy-card:  #781230;
+  --slate:      #8a1638;
+  --slate-lt:   #9c1c40;
   --cyan:       #d4af5f;
   --cyan-dim:   #a68a3e;
   --cyan-glow:  rgba(212,175,95,.18);
   --white:      #ffffff;
   --off-white:  #f8ebee;
   --muted:      #d2afb6;
-  --border:     rgba(212,175,95,.18);
+  --border:     rgba(212,175,95,.22);
   --border-sel: rgba(212,175,95,.6);
-  --shadow:     0 8px 32px rgba(0,0,0,.45);
-  --shadow-sm:  0 3px 12px rgba(0,0,0,.35);
+  --shadow:     0 8px 32px rgba(0,0,0,.4);
+  --shadow-sm:  0 3px 12px rgba(0,0,0,.3);
   --r:          14px;
   --r-sm:       8px;
   --ease:       .18s cubic-bezier(.4,0,.2,1);
@@ -35,7 +35,7 @@
   --font-b:     'Barlow', sans-serif;
   --maroon:     #950631;
   --maroon-lt:  #b41441;
-  --maroon-dk:  #520e20;
+  --maroon-dk:  #641028;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;}
@@ -51,8 +51,8 @@ body::before{
   content:'';
   position:fixed;inset:0;z-index:0;pointer-events:none;
   background:
-    radial-gradient(ellipse 90% 55% at 15% 10%, rgba(149,6,49,.12) 0%, transparent 65%),
-    radial-gradient(ellipse 70% 70% at 85% 90%, rgba(52,8,20,.9) 0%, transparent 70%),
+    radial-gradient(ellipse 90% 55% at 15% 10%, rgba(149,6,49,.18) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 70% at 85% 90%, rgba(82,14,32,.9) 0%, transparent 70%),
     repeating-linear-gradient(0deg,transparent,transparent 47px,rgba(212,175,95,.02) 48px),
     repeating-linear-gradient(90deg,transparent,transparent 47px,rgba(212,175,95,.02) 48px);
 }
@@ -375,7 +375,7 @@ body::before{
   position:absolute;
   z-index:9000;
   width:min(480px, 92vw);
-  background:linear-gradient(145deg,#520e20 0%,#420c1a 100%);
+  background:linear-gradient(145deg,#781230 0%,#641028 100%);
   border:1.5px solid var(--cyan);
   border-radius:var(--r);
   padding:18px 20px;
